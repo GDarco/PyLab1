@@ -1,0 +1,15 @@
+a = int(input("Enter first number (1 - 100): "))
+while a < 1 or a > 100:  a = int(input("Uncorrect input!\nEnter first number (1 - 100): "))
+
+b = int(input("Enter second number (1 - 100): "))
+while b < 1 or b > 100: b = int(input("Uncorrect input!\nEnter second number (1 - 100): "))
+
+if a < b: X = b/a - 1
+
+elif a > b: X = (a - 235)/b
+
+else: X = -295
+
+print(f"Result is: ", X)
+
+
