@@ -1,0 +1,5 @@
+a = 1;
+for i in range(2,49,2):
+    a *= 3;
+    if i % 12==0:
+        print(f"Time: {i}h., number of amebs: {a}")
